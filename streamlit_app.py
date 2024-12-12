@@ -4,7 +4,7 @@ import string
 import pickle
 
 
-
+name_model = 'regLinear_model.pkl'
 # On prends notre modèle dans le même répertoire
 model = pickle.load(open(name_model,'rb'))
 
